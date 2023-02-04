@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+<link rel="stylesheet" href="/src/L.ToggleableAttribution.css"/>
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+<script src="/src/L.ToggleableAttribution.js"></script>
+</head>
+<body>
+<div id="map"></div>
+<style>
+    body {
+        margin: 0;
+    }
+    #map {
+        height: 100vh;
+    }
+    .leaflet-control-attribution {
+        border-radius: 20px;
+        margin: 10px !important;
+        padding: 4px;
+        line-height: 1;
+    }
+
+    .leaflet-control-attribution-icon {
+        color: dodgerblue;
+    }
+</style>
+<script type="text/javascript">
+    var map = L.map('map', {
+        toggleableAttributionControl: false // do not add automatically the control
+    }).setView([51.505, -0.09], 13);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    L.control.toggleableAttribution({ // add the control with custom options
+        icon: '<i class="fa-solid fa-circle-info"></i>'
+    }).addTo(map);
+</script>
+</body>

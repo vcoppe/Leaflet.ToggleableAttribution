@@ -1,0 +1,12 @@
+.leaflet-control-attribution-icon {
+    display: inline-block;
+}
+
+.leaflet-control-attribution-body {
+    display: none;
+    padding: 0px 5px;
+}
+
+.leaflet-control-attribution:hover > .leaflet-control-attribution-body {
+    display: inline-block;
+}
