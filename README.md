@@ -12,8 +12,8 @@ Developed with Leaflet 1.9.3 but so simple it probably works with other versions
 Simply add the two files from the `src` folder to your project like below.
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/leaflet-toggleable-attribution@0.0.0/src/L.ToggleableAttribution.css"/>
-<script src="https://unpkg.com/leaflet-toggleable-attribution@0.0.0/src/L.ToggleableAttribution.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet-toggleable-attribution@0.0.1/src/L.Control.ToggleableAttribution.css"/>
+<script src="https://unpkg.com/leaflet-toggleable-attribution@0.0.1/src/L.Control.ToggleableAttribution.js"></script>
 ```
 
 ## Reference

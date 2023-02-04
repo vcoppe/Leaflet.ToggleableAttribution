@@ -1,6 +1,6 @@
 {
   "name": "leaflet-toggleable-attribution",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Minimalist Leaflet plugin to display the map attribution only when hovered on.",
   "keywords": [
     "leaflet",
