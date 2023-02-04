@@ -1,7 +1,7 @@
 # Leaflet.ToggleableAttribution
 Minimalist Leaflet plugin to display the map attribution only when hovered on.
 
-Check the [demo](https://vcoppe.github.io/L.ToggleableAttribution/)!
+Check the [demo](https://vcoppe.github.io/Leaflet.ToggleableAttribution/)!
 
 ## Requirements
 
@@ -43,7 +43,7 @@ L.control.toggleableAttribution({ // add the control with custom options
     icon: '<i class="fa-solid fa-circle-info"></i>'
 }).addTo(map);
 ```
-This code is used in the [demo](https://vcoppe.github.io/L.ToggleableAttribution/).
+This code is used in the [demo](https://vcoppe.github.io/Leaflet.ToggleableAttribution/).
 
 ## Styling
 
