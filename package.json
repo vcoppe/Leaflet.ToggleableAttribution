@@ -1,0 +1,25 @@
+{
+  "name": "leaflet-toggleable-attribution",
+  "version": "0.0.0",
+  "description": "Minimalist Leaflet plugin to display the map attribution only when hovered on.",
+  "keywords": [
+    "leaflet",
+    "map",
+    "attribution",
+    "toggleable"
+  ],
+  "author": "Vianney Coppé",
+  "homepage": "https://github.com/vcoppe/Leaflet.ToggleableAttribution#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vcoppe/Leaflet.ToggleableAttribution.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vcoppe/Leaflet.ToggleableAttribution/issues"
+  },
+  "main": "src/L.Control.ToggleableAttribution.js",
+  "peerDependencies": {
+    "leaflet": "^1.9.3"
+  }
+}
